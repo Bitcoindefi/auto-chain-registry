@@ -63,6 +63,23 @@ const VehicleDemo = () => {
           </p>
         </div>
 
+        {/* Imagen ilustrativa del proceso */}
+        <div className="mb-12 text-center">
+          <div className="relative inline-block rounded-2xl overflow-hidden shadow-2xl">
+            <img 
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=400&fit=crop&crop=center"
+              alt="Código de programación blockchain en pantalla"
+              className="w-full max-w-4xl h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/80 to-purple-600/80 flex items-center justify-center">
+              <div className="text-center text-white">
+                <h3 className="text-2xl font-bold mb-2">Sistema Blockchain Automotor</h3>
+                <p className="text-blue-100">Tecnología avanzada para el registro vehicular</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {/* Panel de datos del vehículo */}
           <Card className="border-2 border-blue-200">
@@ -73,6 +90,15 @@ const VehicleDemo = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
+              {/* Imagen del vehículo */}
+              <div className="mb-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=300&fit=crop&crop=center"
+                  alt="Vehículo Ford Focus"
+                  className="w-full h-32 object-cover rounded-lg"
+                />
+              </div>
+              
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="text-sm font-medium text-gray-600">Marca/Modelo</label>
@@ -122,6 +148,15 @@ const VehicleDemo = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
+              {/* Imagen tecnológica */}
+              <div className="mb-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=200&fit=crop&crop=center"
+                  alt="Tecnología blockchain y programación"
+                  className="w-full h-24 object-cover rounded-lg"
+                />
+              </div>
+              
               <div>
                 <label className="text-sm font-medium text-gray-600">Propietario</label>
                 <p className="font-semibold text-lg">{walletData.owner}</p>

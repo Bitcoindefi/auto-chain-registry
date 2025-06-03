@@ -62,26 +62,29 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="relative z-10 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-3xl p-8 border border-white/20">
-              <div className="space-y-6">
-                <div className="flex items-center gap-3">
-                  <Shield className="h-6 w-6 text-green-400" />
-                  <span className="font-medium">NFT Certificado Digital</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Globe className="h-6 w-6 text-blue-400" />
-                  <span className="font-medium">Blockchain Inmutable</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Zap className="h-6 w-6 text-yellow-400" />
-                  <span className="font-medium">Contratos Inteligentes</span>
-                </div>
-                
-                <div className="mt-8 p-4 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl border border-green-400/30">
-                  <div className="text-sm font-medium text-green-300 mb-1">Estado del Proceso</div>
-                  <div className="text-lg font-bold">Transferencia Automática</div>
-                  <div className="w-full bg-white/20 rounded-full h-2 mt-2">
-                    <div className="bg-gradient-to-r from-green-400 to-blue-400 h-2 rounded-full w-4/5"></div>
+            {/* Imagen principal de tecnología blockchain */}
+            <div className="relative z-10 rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop&crop=center"
+                alt="Tecnología Blockchain - Pantallas digitales mostrando datos"
+                className="w-full h-[400px] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent"></div>
+              
+              {/* Overlay con información */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <Shield className="h-5 w-5 text-green-400" />
+                    <span className="text-sm font-medium">NFT Certificado Digital</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Globe className="h-5 w-5 text-blue-400" />
+                    <span className="text-sm font-medium">Blockchain Inmutable</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Zap className="h-5 w-5 text-yellow-400" />
+                    <span className="text-sm font-medium">Contratos Inteligentes</span>
                   </div>
                 </div>
               </div>

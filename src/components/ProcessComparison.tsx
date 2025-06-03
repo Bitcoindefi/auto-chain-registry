@@ -32,6 +32,23 @@ const ProcessComparison = () => {
           </p>
         </div>
 
+        {/* Imagen ilustrativa del proceso */}
+        <div className="mb-12 text-center">
+          <div className="relative inline-block rounded-2xl overflow-hidden shadow-xl">
+            <img 
+              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=1200&h=400&fit=crop&crop=center"
+              alt="Código de software en monitor"
+              className="w-full max-w-5xl h-48 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 via-yellow-500/70 to-green-600/70 flex items-center justify-center">
+              <div className="text-center text-white">
+                <h3 className="text-2xl font-bold mb-2">Evolución Digital del Registro Automotor</h3>
+                <p className="text-yellow-100">Del papel tradicional a la blockchain</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12">
           <Card className="border-red-200 shadow-lg">
             <CardContent className="p-8">
