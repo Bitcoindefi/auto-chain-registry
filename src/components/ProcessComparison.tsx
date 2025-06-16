@@ -28,22 +28,22 @@ const ProcessComparison = () => {
             Transformación del Proceso Registral
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comparación entre el sistema tradicional y nuestra solución blockchain
+            Del sistema tradicional a la revolución blockchain automotor
           </p>
         </div>
 
-        {/* Imagen ilustrativa del proceso */}
+        {/* Imagen ilustrativa del registro automotor */}
         <div className="mb-12 text-center">
           <div className="relative inline-block rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=1200&h=400&fit=crop&crop=center"
-              alt="Código de software en monitor"
+              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=400&fit=crop&crop=center"
+              alt="Oficina de registro automotor - Evolución digital del trámite vehicular"
               className="w-full max-w-5xl h-48 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 via-yellow-500/70 to-green-600/70 flex items-center justify-center">
               <div className="text-center text-white">
-                <h3 className="text-2xl font-bold mb-2">Evolución Digital del Registro Automotor</h3>
-                <p className="text-yellow-100">Del papel tradicional a la blockchain</p>
+                <h3 className="text-2xl font-bold mb-2">Evolución del Registro Automotor Argentino</h3>
+                <p className="text-yellow-100">Del papel tradicional a la tokenización blockchain</p>
               </div>
             </div>
           </div>
@@ -55,6 +55,9 @@ const ProcessComparison = () => {
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-red-700 mb-2">Sistema Actual</h3>
                 <p className="text-red-600">Lento • Riesgoso • Costoso</p>
+                <div className="text-sm text-red-500 mt-2">
+                  33% de operaciones no se realizan en blanco
+                </div>
               </div>
               
               <div className="space-y-6">
@@ -72,6 +75,7 @@ const ProcessComparison = () => {
               <div className="mt-8 p-4 bg-red-100 rounded-lg text-center">
                 <div className="text-3xl font-bold text-red-700">15-30 días</div>
                 <div className="text-red-600">Tiempo promedio total</div>
+                <div className="text-sm text-red-500 mt-1">Costos: 5.5% del valor del vehículo</div>
               </div>
             </CardContent>
           </Card>
@@ -81,6 +85,9 @@ const ProcessComparison = () => {
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-green-700 mb-2">Registro.blockchain</h3>
                 <p className="text-green-600">Rápido • Seguro • Eficiente</p>
+                <div className="text-sm text-green-500 mt-2">
+                  Inspirado en RG 1069/2025 CNV
+                </div>
               </div>
               
               <div className="space-y-6">
@@ -98,9 +105,54 @@ const ProcessComparison = () => {
               <div className="mt-8 p-4 bg-green-100 rounded-lg text-center">
                 <div className="text-3xl font-bold text-green-700">1-3 días</div>
                 <div className="text-green-600">Tiempo promedio total</div>
+                <div className="text-sm text-green-500 mt-1">Reducción del 80% en costos</div>
               </div>
             </CardContent>
           </Card>
+        </div>
+
+        {/* Beneficios clave */}
+        <div className="mt-16 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
+          <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">
+            Beneficios para Todos los Actores
+          </h3>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <FileText className="h-8 w-8 text-white" />
+              </div>
+              <h4 className="font-bold text-blue-900 mb-2">Para el Usuario</h4>
+              <ul className="text-sm text-blue-700 space-y-1">
+                <li>• Menos impuestos y gastos</li>
+                <li>• Trámites 100% digitales</li>
+                <li>• Propiedad garantizada</li>
+              </ul>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="h-8 w-8 text-white" />
+              </div>
+              <h4 className="font-bold text-green-900 mb-2">Para el Estado</h4>
+              <ul className="text-sm text-green-700 space-y-1">
+                <li>• Mayor transparencia</li>
+                <li>• Reducción operaciones en negro</li>
+                <li>• Innovación y eficiencia</li>
+              </ul>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-white" />
+              </div>
+              <h4 className="font-bold text-purple-900 mb-2">Para el Mercado</h4>
+              <ul className="text-sm text-purple-700 space-y-1">
+                <li>• Más seguridad, menos fraude</li>
+                <li>• Expansión territorial</li>
+                <li>• Interoperabilidad internacional</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -5,6 +5,7 @@ import ProcessComparison from '../components/ProcessComparison';
 import Benefits from '../components/Benefits';
 import TechArchitecture from '../components/TechArchitecture';
 import VehicleDemo from '../components/VehicleDemo';
+import RegulatoryFramework from '../components/RegulatoryFramework';
 import Statistics from '../components/Statistics';
 import Mission from '../components/Mission';
 import Roadmap from '../components/Roadmap';
@@ -18,6 +19,7 @@ const Index = () => {
       <Hero />
       <ProcessComparison />
       <VehicleDemo />
+      <RegulatoryFramework />
       <Benefits />
       <Statistics />
       <TechArchitecture />
