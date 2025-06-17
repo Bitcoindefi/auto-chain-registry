@@ -32,12 +32,12 @@ const ProcessComparison = () => {
           </p>
         </div>
 
-        {/* Imagen ilustrativa del registro automotor */}
+        {/* Imagen ilustrativa del blockchain y NFTs */}
         <div className="mb-12 text-center">
           <div className="relative inline-block rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&h=400&fit=crop&crop=center"
-              alt="Oficina de registro automotor - Evolución digital del trámite vehicular"
+              src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=1200&h=400&fit=crop&crop=center"
+              alt="Blockchain network and NFT tokens - Red de blockchain con tokens digitales"
               className="w-full max-w-5xl h-48 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-red-600/70 via-yellow-500/70 to-green-600/70 flex items-center justify-center">

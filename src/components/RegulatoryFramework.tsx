@@ -60,12 +60,12 @@ const RegulatoryFramework = () => {
           </p>
         </div>
 
-        {/* Imagen de marco regulatorio */}
+        {/* Imagen de blockchain governance y regulación */}
         <div className="mb-12 text-center">
           <div className="relative inline-block rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&h=400&fit=crop&crop=center"
-              alt="Marco legal y regulatorio - Documentos y legislación"
+              src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&h=400&fit=crop&crop=center"
+              alt="Blockchain governance and smart contracts - Gobernanza blockchain y contratos inteligentes"
               className="w-full max-w-4xl h-48 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-blue-900/80 flex items-center justify-center">
