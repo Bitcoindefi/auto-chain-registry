@@ -63,11 +63,11 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            {/* Imagen de NFT y vehículos digitales */}
+            {/* Imagen de vehículo moderno representando NFT */}
             <div className="relative z-10 rounded-3xl overflow-hidden border border-white/20 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop&crop=center"
-                alt="NFT digital art - Representación de tokens no fungibles para vehículos"
+                src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=600&fit=crop&crop=center"
+                alt="Vehículo moderno con concepto digital - Representación de tokenización vehicular"
                 className="w-full h-[400px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent"></div>

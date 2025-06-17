@@ -59,8 +59,8 @@ const VehicleDemo = () => {
           <div className="space-y-6">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=600&fit=crop&crop=center"
-                alt="Crypto NFT blockchain concept - Digital tokens and cryptocurrency"
+                src="https://images.unsplash.com/photo-1550355291-bbee04a92027?w=800&h=600&fit=crop&crop=center"
+                alt="Vehículo sedán moderno - Toyota Corolla para tokenización NFT"
                 className="w-full h-64 object-cover"
               />
               <div className="absolute top-4 left-4">

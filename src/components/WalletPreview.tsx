@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -30,7 +29,7 @@ const WalletPreview = () => {
       filecoinCID: "QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG",
       verificationStatus: "Verificado DNRPA",
       marketValue: "15,000 USDC",
-      image: "https://images.unsplash.com/photo-1623869675781-80aa31bf34e3?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1550355291-bbee04a92027?w=400&h=300&fit=crop"
     },
     {
       tokenId: "1002",
